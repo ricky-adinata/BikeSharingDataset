@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Memuat data
+# Memuat data : Memuat data penyewaan sepeda dibaca dari file CSV 
 @st.cache_data
 def load_data():
     data_hour = pd.read_csv("hour.csv")
@@ -32,7 +32,7 @@ st.markdown('```python')
 st.code('import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport seaborn as sns', language='python')
 st.markdown('```')
 
-# Penilaian Data
+# Penilaian Data : Informasi data ditampilkan, termasuk struktur dataset, tipe data, dan jumlah entri
 st.markdown('## Assessing Data 🕵️‍♂️')
 st.markdown('```python')
 st.code("""
@@ -60,14 +60,15 @@ st.markdown('```')
 
 # Pembersihan Data
 st.markdown('## Cleaning Data 🧹')
-st.markdown('Tidak ada pembersihan yang diperlukan karena tidak ditemukan kejanggalan dalam proses sebelumnya')
+st.markdown('Dilakukan pemeriksaan untuk mendeteksi dan menangani nilai yang hilang atau data yang tidak konsisten. Namun, dalam kasus ini, tidak ada cleaning data yang dilakukan karena tidak ditemukan kejanggalan pada data.')
 
 # Analisis Data Eksploratif (EDA)
 st.markdown('## Analisis Data Eksploratif 🚀')
-
+st.markdown('**isualisasi dilakukan menggunakan library matplotlib dan seaborn untuk mempresentasikan hasil EDA dengan grafik dan plot yang sesuai.**')
 # Pertanyaan 1: Korelasi antara variabel
 st.markdown('#### Korelasi antara Variabel')
 st.markdown('**Statistik deskriptif untuk dataset per jam:**')
+st.markdown('**Dilakukan untuk menganalisis distribusi variabel dan mendapatkan pemahaman awal tentang data**')
 st.dataframe(data_hour.describe())
 
 st.markdown('**Statistik deskriptif untuk dataset per hari:**')
@@ -87,6 +88,7 @@ sns.scatterplot(x='temp', y='cnt', data=data_hour)
 st.pyplot(plt.gcf())
 
 # Kesimpulan
+st.markdown('**Dilakukan untuk mengetahui hubungan antara variabel, khususnya suhu, kelembaban, kecepatan angin, dan jumlah penyewaan sepeda**')
 st.markdown('## Kesimpulan')
 
 # Kesimpulan untuk Pertanyaan 1
