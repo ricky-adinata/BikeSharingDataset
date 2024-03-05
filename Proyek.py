@@ -90,7 +90,7 @@ st.pyplot(plt.gcf())
 st.markdown('## Kesimpulan')
 
 # Kesimpulan untuk Pertanyaan 1
-st.markdown('''- **Wawasan dari Pertanyaan 1:** Heatmap korelasi menunjukkan bahwa suhu udara memiliki korelasi positif yang signifikan dengan penyewaan sepeda. Semakin tinggi suhu, semakin tinggi jumlah penyewaan sepeda. Kelembaban memiliki korelasi negatif yang kuat dengan penyewaan sepeda, menandakan bahwa kelembaban tinggi menyebabkan jumlah penyewaan sepeda rendah. Kecepatan angin ('windspeed') menunjukkan korelasi yang lemah dengan penyewaan sepeda.''')
+st.markdown('''- **Kesimpulan untuk Pertanyaan 1:** Heatmap korelasi menunjukkan bahwa suhu udara memiliki korelasi positif yang signifikan dengan penyewaan sepeda. Semakin tinggi suhu, semakin tinggi jumlah penyewaan sepeda. Kelembaban memiliki korelasi negatif yang kuat dengan penyewaan sepeda, menandakan bahwa kelembaban tinggi menyebabkan jumlah penyewaan sepeda rendah. Kecepatan angin ('windspeed') menunjukkan korelasi yang lemah dengan penyewaan sepeda.''')
 
 # Pertanyaan 2: Hubungan antara kondisi cuaca dan jumlah pengguna sepeda
 st.markdown('#### Menerjemahkan Cuaca: Hubungan antara Kondisi Cuaca dan Pengguna Sepeda')
@@ -106,4 +106,4 @@ st.pyplot(plt.gcf())
 st.markdown('## Kesimpulan')
 
 # Kesimpulan untuk Pertanyaan 2
-st.markdown('''- **Wawasan dari Pertanyaan 2:** Dari boxplot, kita melihat variasi penyewaan sepeda berdasarkan kondisi cuaca. Pada dataset per jam, cuaca cerah dengan sedikit awan cenderung memiliki penyewaan sepeda lebih tinggi dibandingkan dengan kondisi cuaca lain seperti kabut, salju ringan, dan hujan deras. Temuan ini konsisten dengan dataset per hari, di mana penyewaan sepeda tertinggi terjadi saat cuaca cerah dengan sedikit awan. Kesimpulannya, suhu, kelembaban, dan kondisi cuaca memengaruhi penyewaan sepeda, dengan suhu dan kondisi cuaca memiliki dampak yang lebih besar. Informasi ini dapat membantu penyedia layanan penyewaan sepeda dalam mengoptimalkan strategi berdasarkan faktor cuaca dan lingkungan.''')
+st.markdown('''- **Kesimpulan untuk Pertanyaan 2:** Dari boxplot, kita melihat variasi penyewaan sepeda berdasarkan kondisi cuaca. Pada dataset per jam, cuaca cerah dengan sedikit awan cenderung memiliki penyewaan sepeda lebih tinggi dibandingkan dengan kondisi cuaca lain seperti kabut, salju ringan, dan hujan deras. Temuan ini konsisten dengan dataset per hari, di mana penyewaan sepeda tertinggi terjadi saat cuaca cerah dengan sedikit awan. Kesimpulannya, suhu, kelembaban, dan kondisi cuaca memengaruhi penyewaan sepeda, dengan suhu dan kondisi cuaca memiliki dampak yang lebih besar. Informasi ini dapat membantu penyedia layanan penyewaan sepeda dalam mengoptimalkan strategi berdasarkan faktor cuaca dan lingkungan.''')
