@@ -64,7 +64,7 @@ st.markdown('Dilakukan pemeriksaan untuk mendeteksi dan menangani nilai yang hil
 
 # Analisis Data Eksploratif (EDA)
 st.markdown('## Analisis Data Eksploratif 🚀')
-st.markdown('**isualisasi dilakukan menggunakan library matplotlib dan seaborn untuk mempresentasikan hasil EDA dengan grafik dan plot yang sesuai.**')
+st.markdown('**Visualisasi dilakukan menggunakan library matplotlib dan seaborn untuk mempresentasikan hasil EDA dengan grafik dan plot yang sesuai.**')
 # Pertanyaan 1: Korelasi antara variabel
 st.markdown('#### Korelasi antara Variabel')
 st.markdown('**Statistik deskriptif untuk dataset per jam:**')
